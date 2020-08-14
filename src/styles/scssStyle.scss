@@ -1,0 +1,15 @@
+$border: 1px solid rgba(204, 204, 204, 0.294);
+$bg: purple;
+$bordRad : 10px;
+
+.box {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  background-color: $bg;
+  border: $border;
+  border-radius: $bordRad;
+
+  h2 {
+    color: rgb(44, 32, 218);
+  }
+}
